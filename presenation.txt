@@ -1,0 +1,165 @@
+(?)
+
+Good morning and thank you for comming
+
+In our presentation, I'll be talking to you about cubeSat
+
+------------------------------------------------------------
+
+(soufiane)
+
+Cubesat  clasified in picosatellite and nanosatelitte it's very small compared to conventional satellites
+
+This model is actually on the scale (En montrant la maquette)
+
+------------------------------------------------------------
+(soufiane)
+
+Generally used for space research
+
+- technological validations in orbit
+- scientific missions including interplanetary
+- new applications for civil society and defense
+
+
+It's miniaturized, 1U to 12U 
+
+exemple the model is a 3 unit
+
+It's lowcost
+
+- rapid development generally  3~4 years
+
+- modular design, lot of part of older satellite is reused
+
+- used commercially available off-the-shelf hardware and no space product 
+
+------------------------------------------------------------
+
+(jskd)
+
+The composition is the same as a conventional satellite
+
+It's have a Determination and Control system 
+
+is a module for controlling the orientation of the cubesat
+
+On-Borad computer control all subsystem of the satellite with autonomous software
+
+it's have Communication system for receiving telecomands and send telemetrys
+
+
+it's have a power systeme 
+
+manange the baterry and receive energy from solar panel
+
+
+and the most important the payload
+
+In EyeSat it's a space camera
+
+------------------------------------------------------------
+(soufiane)
+
+The on board computer is the main part of computer science
+
+this role is controll all subsysteme
+
+It's composed of STM32 microntroller and ARM cortex M7 processor 
+
+the most popular language is C and C++ because it's a easy for manipulate register / input output and interupt
+
+FreeRTOS is verry popular, is have lot of multithread mecanism and it's lightweight
+
+exemple taskscheduling / semaphore / queue operations
+
+Organise code with finite state machine is lot of used
+
+because good for debug test and validation
+
+------------------------------------------------------------
+
+(jskd)
+
+The most important point in the on-Board computer is must be autonomous
+
+Because, in orbit it's no possible to change the software
+
+It's important to used power efficient software coding style
+
+- No unnecessary action in background 
+
+example no calculate every time position if it's not use by the ADCS
+
+- Handling speep transition seamlessly 
+
+example no pulling the sensor value for determination of transition
+
+- Scale Behavior Based on Machine Power State
+
+exemple if the satelite is power low desactivate antenna and pass in suvival mode
+
+The space contraints
+
+- The phantom commands is activated while it is desactivated and vise versa
+
+- Random part Failure is more rarely occur when a component no longer works.
+
+- Single event upset (SEU) are caused by particles charged with high energy (protons, alpha particles, heavy ions)
+
+that penetrate the components (memory, processor) and modifies the contents of the memory or the data being calculated in the processor.
+
+
+------------------------------------------------------------
+(soufiane)
+
+the second segment of computer science in cubesat is Ground station
+
+it allows to send telecom and receive telemetry
+
+the language java is very popular, lot of open source project for space use this language
+
+Ground station have many fonctionnality
+
+antenna tracking is positionning the antenna for receive and send data 
+
+change oriantation of antenna, azimuith and elevation 
+
+(faire un de bras gauche à droite pour azimuth  et haut en bas pour elevation)
+
+adapt the frequency for compensate the doppler shift 
+
+
+------------------------------------------------------------
+
+(jskd)
+
+The ground station have a control command centers, is used for planify the command sended example the attitude handling
+
+the satellite trackning is important part, it's used for orbit determination
+
+example in this pictured, you can see the position of satelite HO-68 actuali in longitude  minus forteen dot one degrees and latitude fivety one dot four degreese
+
+
+---------------------------------------------------------------
+(soufiane)
+
+As a conclusion
+
+CubeSats facilitate access to space and offer more opportunities to innovation 
+
+
+---------------------------------------------------------------
+(jskd)
+
+Tanks for your interest 
+
+Any question?
+
+
+
+
+
+
+
+
