@@ -1,0 +1,54 @@
+Games are a kind of microcosm of the outside world. 
+
+That is why games were invented, and that is why humans find it fun to play.
+
+There's a rich history of computers tackling board games.
+
+It started with games like backgammon, drafts, and finally, there was deep blue in 1997,
+
+that beat Caspar for chess, which is also a huge watershed moment for game AI (artificial intelligence).
+
+0:21
+
+Since then, the only big remaining "holy grail," if you like, has been Go.
+
+In chess, a number possible moves to about 20 for the average position.
+
+In Go, it's about 2000.
+
+0:35
+
+
+Another way of viewing the complexity of Go is that the number of possible configurations of the board is more than the number of atoms in the universe.
+
+If you ask a great Go player why they played particular move, sometimes they'll just tell you it just felt right. So, one way you can think about it is that Go is much more intuitive game,
+
+whereas chess is much more a logic-based game.
+
+0:56
+
+AlphaGo is our program to actually try and crack Go. 
+
+We played the European Champion in a five-game match. 
+
+We have an estimate of how strong a program is, but of course you never know when you play a human player, they do all sort of very interesting and creative things that your program doesn't do. 
+
+So, there's always unknown.
+
+" When we play the first game, I lose. Interesting! " -European Go Champion.
+ 
+1:25
+ 
+I think he was a bit stunned after the first game and I think he was unsure as to whether he hadn't prepared enough or whether the program was really strong.
+
+"I think after the first game, maybe it doesn't like the fight, it likes playing slowly. So, when we play second game, I fight. And it made mistakes sometimes. Ahh, maybe I'm right. & it's why for another game, I fight entire time. Now it is a competition, but I lost all the games.
+
+2:02
+
+AlphaGo won 5-0, which is the first time ever a program beat a professional player. The way I see where we are now is that we've beaten the European Champion now and the next step is for us to challenge the legendary player who is like the Roger Federer of Go.
+
+2:26
+
+We always used to talk about, "well if we could eventually crack Go and have a program that could beat the world champion then we must've invented some generic general purpose algorithm" so maybe we're on the cusp on that now. 
+
+We're very excited about it but that's just one rung in ladder towards solving Artificial Intelligence
